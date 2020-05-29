@@ -1,21 +1,29 @@
 input[type=button] {
     margin-top: 5px;
-    
+    padding: 30px
 }
 
+
 .calBody {
-    width: 300px;
+    border: solid 5px black !important;
+    width: 500px;
     margin: auto;
     margin-top: 20px;
 }
 
 #display {
+    border: solid 5px black !important;
+
+    font-size: 23px;
+    font-weight: 400;
+    padding: 20px;
     margin: 20px;
-    width: 220px;
+    width: 420px;
     text-align: center;
 }
 
 .controls {
+
     margin-top: 20px;
-    margin-left: 55px;
+    margin-left: 85px;
 }

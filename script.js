@@ -106,7 +106,7 @@ function getResult() {
   console.log(ac_value)
   let value = eval(ac_value)  
 
-  // value = value.toFixed(2)
+  value = value.toFixed(3)
   display.value = value
 }
 
