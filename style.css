@@ -1,0 +1,21 @@
+input[type=button] {
+    margin-top: 5px;
+    
+}
+
+.calBody {
+    width: 300px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#display {
+    margin: 20px;
+    width: 220px;
+    text-align: center;
+}
+
+.controls {
+    margin-top: 20px;
+    margin-left: 55px;
+}

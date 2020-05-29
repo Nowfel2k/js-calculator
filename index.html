@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Fork Me! FCC: Test Suite Template</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+</head>
+
+<body class="container-fluid">
+  <div class="well calBody">
+
+
+    <input id="display"></input>
+    <br>
+    <div style="margin-left: 70px;" class="nums">
+
+      <input type="button" class="btn btn-primary" value="0" id="zero" onclick="calculate(this.value)">
+      <input type="button" class="btn btn-primary" value="1" id="one" onclick="calculate(this.value)">
+      <input type="button" class="btn btn-primary" value="2" id="two" onclick="calculate(this.value)"> <br>
+      <input type="button" class="btn btn-primary" value="3" id="three" onclick="calculate(this.value)">
+      <input type="button" class="btn btn-primary" value="4" id="four" onclick="calculate(this.value)">
+      <input type="button" class="btn btn-primary" value="5" id="five" onclick="calculate(this.value)"> <br>
+      <input type="button" class="btn btn-primary" value="6" id="six" onclick="calculate(this.value)">
+      <input type="button" class="btn btn-primary" value="7" id="seven" onclick="calculate(this.value)">
+      <input type="button" class="btn btn-primary" value="8" id="eight" onclick="calculate(this.value)"> <br>
+      <input style="margin-left: 38px;" type="button" class="btn btn-primary" value="9" id="nine"
+        onclick="calculate(this.value)"> <br>
+
+    </div>
+    <div class="controls">
+
+      <input type="button" class="btn btn-warning" value="+" id="add" onclick="calculate(this.value)">
+      <input type="button" class="btn btn-warning" value="-" id="subtract" onclick="calculate(this.value)">
+      <input type="button" class="btn btn-warning" value="*" id="multiply" onclick="calculate(this.value)">
+      <input type="button" class="btn btn-warning" value="/" id="divide" onclick="calculate(this.value)"> <br>
+
+
+
+
+
+      <input style="margin-left: 6px;" type="button" class="btn btn-warning" value="." id="decimal"  onclick="calculate(this.value)" />
+
+
+
+
+
+
+
+
+
+
+
+
+      <input onclick="clearAll()" type="button" class="btn btn-warning" value="CLR" id="clear">
+
+      <input type="button" class="btn btn-warning" value="=" id="equals" onclick="getResult()" />
+
+
+
+    </div>
+
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
